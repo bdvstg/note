@@ -1,0 +1,6 @@
+[http]
+	proxy = http://192.168.13.3:3129
+[credential]
+	helper = store
+[core]
+	pager = less --LONG-PROMPT --tabs=4 --quit-if-one-screen --tilde --jump-target=3 --ignore-case --status-column
