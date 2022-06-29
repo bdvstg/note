@@ -41,23 +41,23 @@ edit .style.less as content below
             counter-increment: h3counter;
         }
         h4 {font-size: medium;}
-    img[alt="watermark"] {
-        width: 1253px;
-        height: 110px;
-        transform: rotate(-50deg);
-        opacity: 0.3;
-        position: fixed;
-        margin-top: 50%;
+        img[alt="watermark"] {
+            width: 1253px;
+            height: 110px;
+            transform: rotate(-50deg);
+            opacity: 0.3;
+            position: fixed;
+            margin-top: 50%;
 
         }
-    img[alt="ICON"] {
-        width: 140px;
-        height: 70px;
-        opacity: 0.9;
-        position: fixed;
-        top: 0%;
-        left: 0%;
-    }
+        img[alt="ICON"] {
+            width: 140px;
+            height: 70px;
+            opacity: 0.9;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+        }
     }
     ```
 
