@@ -5,12 +5,12 @@ Addons : many
 
 ## model inherit
 
-    ```python,odoo
+    ```python
     _inherit = "parent.name"
     # this will extent the parent
     ```
 
-    ```python,odoo
+    ```python
     _name = "my.name"
     _inherit = "parent.name"
     # this will create a new model
@@ -18,7 +18,7 @@ Addons : many
 
 be careful, the class name do not same a parent's class name  
 
-    ```python,odoo
+    ```python
     # addons A's models/parent.py
     class Parent_Class(models.Model):
         _name = "aaa.aaa"
